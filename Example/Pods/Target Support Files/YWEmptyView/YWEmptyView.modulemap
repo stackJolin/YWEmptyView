@@ -1,0 +1,6 @@
+framework module YWEmptyView {
+  umbrella header "YWEmptyView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YWEmptyView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YWEmptyView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YWEmptyView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YWEmptyView: 127d5c6c86a1b127c7c541addcfa282507fd319d
+
+PODFILE CHECKSUM: 99ffbdd305344e6843fba6f0d1f59edc6537807f
+
+COCOAPODS: 1.5.0
