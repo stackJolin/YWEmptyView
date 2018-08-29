@@ -1,6 +1,0 @@
-framework module Pods_YWEmptyView_Tests {
-  umbrella header "Pods-YWEmptyView_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

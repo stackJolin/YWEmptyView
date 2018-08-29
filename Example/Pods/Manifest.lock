@@ -1,27 +1,31 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - YWEmptyView (0.1.0)
+  - Masonry (1.1.0)
+  - PodAsset (0.22.0)
+  - YWCoreKit (0.1.1):
+    - PodAsset
+  - YWEmptyView (0.1.1):
+    - Masonry
+    - YWCoreKit
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - YWEmptyView (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - FBSnapshotTestCase
+    - Masonry
+    - PodAsset
+    - YWCoreKit
 
 EXTERNAL SOURCES:
   YWEmptyView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YWEmptyView: 127d5c6c86a1b127c7c541addcfa282507fd319d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PodAsset: d9d35b6a86ceaeaead63692a1bce27b4aea243b3
+  YWCoreKit: 3a5c63e277a38a146493ccde259136bf5046a78a
+  YWEmptyView: 04967d35d86a81dd05428c0644930cbf4b2561f3
 
-PODFILE CHECKSUM: 99ffbdd305344e6843fba6f0d1f59edc6537807f
+PODFILE CHECKSUM: 9404c67dd76c01123e9629b2fa3f1c643af0b742
 
 COCOAPODS: 1.5.0

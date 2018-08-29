@@ -1,0 +1,6 @@
+framework module YWCoreKit {
+  umbrella header "YWCoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

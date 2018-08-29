@@ -7,12 +7,20 @@
 //
 
 #import "YWAppDelegate.h"
+#import "YWViewController.h"
 
 @implementation YWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [self setWindow:[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    
+    YWViewController *vc = [YWViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self.window setRootViewController:nav];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

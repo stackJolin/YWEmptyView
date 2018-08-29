@@ -20,8 +20,12 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6DE51CD521367C8000E83EFB /* YWTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE51CCC21367C7E00E83EFB /* YWTestCell.m */; };
+		6DE51CD621367C8000E83EFB /* YWVC_Scroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE51CCF21367C7F00E83EFB /* YWVC_Scroll.m */; };
+		6DE51CD721367C8000E83EFB /* YWVC_Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE51CD121367C7F00E83EFB /* YWVC_Table.m */; };
+		6DE51CD821367C8000E83EFB /* YWVC_Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE51CD221367C7F00E83EFB /* YWVC_Collection.m */; };
+		6DE51CD921367C8000E83EFB /* YWVC_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE51CD421367C7F00E83EFB /* YWVC_View.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7B47FF996F2F4D381685E736 /* Pods_YWEmptyView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5B4265B350501ACFEFB3D /* Pods_YWEmptyView_Tests.framework */; };
 		7E2F3DA2DF4CB7143D67631B /* Pods_YWEmptyView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDAAAD23DFFDFF62C5758B5 /* Pods_YWEmptyView_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		099766BC7F2560B6C50C95E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		099766BC7F2560B6C50C95E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		14A622E759F371DB9A0D2F38 /* Pods-YWEmptyView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWEmptyView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWEmptyView_Example/Pods-YWEmptyView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1BDAAAD23DFFDFF62C5758B5 /* Pods_YWEmptyView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWEmptyView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YWEmptyView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWEmptyView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,13 +63,21 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6DE51CCB21367C7E00E83EFB /* YWTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTestCell.h; sourceTree = "<group>"; };
+		6DE51CCC21367C7E00E83EFB /* YWTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTestCell.m; sourceTree = "<group>"; };
+		6DE51CCD21367C7E00E83EFB /* YWVC_Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWVC_Table.h; sourceTree = "<group>"; };
+		6DE51CCE21367C7F00E83EFB /* YWVC_Scroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWVC_Scroll.h; sourceTree = "<group>"; };
+		6DE51CCF21367C7F00E83EFB /* YWVC_Scroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWVC_Scroll.m; sourceTree = "<group>"; };
+		6DE51CD021367C7F00E83EFB /* YWVC_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWVC_View.h; sourceTree = "<group>"; };
+		6DE51CD121367C7F00E83EFB /* YWVC_Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWVC_Table.m; sourceTree = "<group>"; };
+		6DE51CD221367C7F00E83EFB /* YWVC_Collection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWVC_Collection.m; sourceTree = "<group>"; };
+		6DE51CD321367C7F00E83EFB /* YWVC_Collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWVC_Collection.h; sourceTree = "<group>"; };
+		6DE51CD421367C7F00E83EFB /* YWVC_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWVC_View.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		760797E3D06A105A7324D711 /* Pods-YWEmptyView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWEmptyView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWEmptyView_Example/Pods-YWEmptyView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87DF8E1F365967BA4E80B8E2 /* YWEmptyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YWEmptyView.podspec; path = ../YWEmptyView.podspec; sourceTree = "<group>"; };
-		ACC536C4651A65827C4313BD /* Pods-YWEmptyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWEmptyView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWEmptyView_Tests/Pods-YWEmptyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BD838637232AB91015DCE50D /* Pods-YWEmptyView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWEmptyView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWEmptyView_Tests/Pods-YWEmptyView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BFA3721BE12CBDDFE31C3D3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		87DF8E1F365967BA4E80B8E2 /* YWEmptyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YWEmptyView.podspec; path = ../YWEmptyView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFA3721BE12CBDDFE31C3D3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EAC5B4265B350501ACFEFB3D /* Pods_YWEmptyView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWEmptyView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,7 +100,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7B47FF996F2F4D381685E736 /* Pods_YWEmptyView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +143,16 @@
 		6003F593195388D20070C39A /* Example for YWEmptyView */ = {
 			isa = PBXGroup;
 			children = (
+				6DE51CCB21367C7E00E83EFB /* YWTestCell.h */,
+				6DE51CCC21367C7E00E83EFB /* YWTestCell.m */,
+				6DE51CD321367C7F00E83EFB /* YWVC_Collection.h */,
+				6DE51CD221367C7F00E83EFB /* YWVC_Collection.m */,
+				6DE51CCE21367C7F00E83EFB /* YWVC_Scroll.h */,
+				6DE51CCF21367C7F00E83EFB /* YWVC_Scroll.m */,
+				6DE51CCD21367C7E00E83EFB /* YWVC_Table.h */,
+				6DE51CD121367C7F00E83EFB /* YWVC_Table.m */,
+				6DE51CD021367C7F00E83EFB /* YWVC_View.h */,
+				6DE51CD421367C7F00E83EFB /* YWVC_View.m */,
 				6003F59C195388D20070C39A /* YWAppDelegate.h */,
 				6003F59D195388D20070C39A /* YWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -190,8 +211,6 @@
 			children = (
 				760797E3D06A105A7324D711 /* Pods-YWEmptyView_Example.debug.xcconfig */,
 				14A622E759F371DB9A0D2F38 /* Pods-YWEmptyView_Example.release.xcconfig */,
-				ACC536C4651A65827C4313BD /* Pods-YWEmptyView_Tests.debug.xcconfig */,
-				BD838637232AB91015DCE50D /* Pods-YWEmptyView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,11 +241,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YWEmptyView_Tests" */;
 			buildPhases = (
-				31F77D7865BD6867F4777F12 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				3F290367D11D1CA7DE561DBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +265,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "601584870@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = CV7MH8K7UH;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -295,42 +315,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31F77D7865BD6867F4777F12 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YWEmptyView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F290367D11D1CA7DE561DBE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YWEmptyView_Tests/Pods-YWEmptyView_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWEmptyView_Tests/Pods-YWEmptyView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A4B72CCF9EDC3489DE1684EB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,10 +340,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YWEmptyView_Example/Pods-YWEmptyView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PodAsset/PodAsset.framework",
+				"${BUILT_PRODUCTS_DIR}/YWCoreKit/YWCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/YWEmptyView/YWEmptyView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PodAsset.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YWCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YWEmptyView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,8 +365,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YWAppDelegate.m in Sources */,
+				6DE51CD921367C8000E83EFB /* YWVC_View.m in Sources */,
+				6DE51CD721367C8000E83EFB /* YWVC_Table.m in Sources */,
 				6003F5A7195388D20070C39A /* YWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				6DE51CD521367C8000E83EFB /* YWTestCell.m in Sources */,
+				6DE51CD821367C8000E83EFB /* YWVC_Collection.m in Sources */,
+				6DE51CD621367C8000E83EFB /* YWVC_Scroll.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,11 +499,12 @@
 			baseConfigurationReference = 760797E3D06A105A7324D711 /* Pods-YWEmptyView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CV7MH8K7UH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YWEmptyView/YWEmptyView-Prefix.pch";
 				INFOPLIST_FILE = "YWEmptyView/YWEmptyView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = www.zhuhoulin.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -519,11 +515,12 @@
 			baseConfigurationReference = 14A622E759F371DB9A0D2F38 /* Pods-YWEmptyView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CV7MH8K7UH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YWEmptyView/YWEmptyView-Prefix.pch";
 				INFOPLIST_FILE = "YWEmptyView/YWEmptyView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = www.zhuhoulin.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -531,7 +528,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACC536C4651A65827C4313BD /* Pods-YWEmptyView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -555,7 +551,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD838637232AB91015DCE50D /* Pods-YWEmptyView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
