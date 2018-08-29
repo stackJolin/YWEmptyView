@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YWEmptyView_Example' do
+  pod 'YWEmptyView', :path => '../'
+
+  target 'YWEmptyView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
