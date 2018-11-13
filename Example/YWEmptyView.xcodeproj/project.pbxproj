@@ -20,6 +20,62 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6D941CAB219AFE810000BC22 /* YWPhotoKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C26219AFE800000BC22 /* YWPhotoKit.podspec */; };
+		6D941CAC219AFE810000BC22 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C27219AFE800000BC22 /* LICENSE */; };
+		6D941CAD219AFE810000BC22 /* YWPhotoKit.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C29219AFE800000BC22 /* YWPhotoKit.xcworkspace */; };
+		6D941CAE219AFE810000BC22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C2B219AFE800000BC22 /* InfoPlist.strings */; };
+		6D941CAF219AFE810000BC22 /* Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C2D219AFE800000BC22 /* Tests-Info.plist */; };
+		6D941CB0219AFE810000BC22 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C2E219AFE800000BC22 /* Tests.m */; };
+		6D941CB1219AFE810000BC22 /* Pods-YWPhotoKit_Example-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C36219AFE800000BC22 /* Pods-YWPhotoKit_Example-frameworks.sh */; };
+		6D941CB2219AFE810000BC22 /* Pods-YWPhotoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C37219AFE800000BC22 /* Pods-YWPhotoKit_Example-dummy.m */; };
+		6D941CB3219AFE810000BC22 /* Pods-YWPhotoKit_Example.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C38219AFE800000BC22 /* Pods-YWPhotoKit_Example.debug.xcconfig */; };
+		6D941CB4219AFE810000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C39219AFE800000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.plist */; };
+		6D941CB5219AFE810000BC22 /* Pods-YWPhotoKit_Example.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C3C219AFE800000BC22 /* Pods-YWPhotoKit_Example.release.xcconfig */; };
+		6D941CB6219AFE810000BC22 /* Pods-YWPhotoKit_Example-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C3D219AFE800000BC22 /* Pods-YWPhotoKit_Example-resources.sh */; };
+		6D941CB7219AFE810000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C3E219AFE800000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.markdown */; };
+		6D941CB8219AFE810000BC22 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C3F219AFE800000BC22 /* Info.plist */; };
+		6D941CB9219AFE810000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C41219AFE800000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.markdown */; };
+		6D941CBA219AFE810000BC22 /* Pods-YWPhotoKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C42219AFE800000BC22 /* Pods-YWPhotoKit_Tests-dummy.m */; };
+		6D941CBB219AFE810000BC22 /* Pods-YWPhotoKit_Tests-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C43219AFE800000BC22 /* Pods-YWPhotoKit_Tests-frameworks.sh */; };
+		6D941CBC219AFE810000BC22 /* Pods-YWPhotoKit_Tests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C44219AFE800000BC22 /* Pods-YWPhotoKit_Tests.release.xcconfig */; };
+		6D941CBD219AFE810000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C47219AFE800000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.plist */; };
+		6D941CBE219AFE810000BC22 /* Pods-YWPhotoKit_Tests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C48219AFE800000BC22 /* Pods-YWPhotoKit_Tests.debug.xcconfig */; };
+		6D941CBF219AFE810000BC22 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C49219AFE800000BC22 /* Info.plist */; };
+		6D941CC0219AFE810000BC22 /* Pods-YWPhotoKit_Tests-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C4A219AFE800000BC22 /* Pods-YWPhotoKit_Tests-resources.sh */; };
+		6D941CC1219AFE810000BC22 /* FBSnapshotTestCase.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C4E219AFE800000BC22 /* FBSnapshotTestCase.xcconfig */; };
+		6D941CC2219AFE810000BC22 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C50219AFE800000BC22 /* FBSnapshotTestCase-dummy.m */; };
+		6D941CC3219AFE810000BC22 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C51219AFE800000BC22 /* Info.plist */; };
+		6D941CC4219AFE810000BC22 /* YWPhotoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C55219AFE800000BC22 /* YWPhotoKit-dummy.m */; };
+		6D941CC5219AFE810000BC22 /* YWPhotoKit.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C56219AFE800000BC22 /* YWPhotoKit.xcconfig */; };
+		6D941CC6219AFE810000BC22 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C58219AFE800000BC22 /* Info.plist */; };
+		6D941CC7219AFE810000BC22 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C59219AFE800000BC22 /* Manifest.lock */; };
+		6D941CC8219AFE810000BC22 /* YWPhotoKit.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C5B219AFE800000BC22 /* YWPhotoKit.podspec.json */; };
+		6D941CC9219AFE810000BC22 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C5D219AFE800000BC22 /* LICENSE */; };
+		6D941CCA219AFE810000BC22 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C5E219AFE800000BC22 /* README.md */; };
+		6D941CCB219AFE810000BC22 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C60219AFE800000BC22 /* FBSnapshotTestCasePlatform.m */; };
+		6D941CCC219AFE810000BC22 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C62219AFE800000BC22 /* FBSnapshotTestController.m */; };
+		6D941CCD219AFE810000BC22 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C63219AFE800000BC22 /* SwiftSupport.swift */; };
+		6D941CCE219AFE810000BC22 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C64219AFE800000BC22 /* FBSnapshotTestCase.m */; };
+		6D941CCF219AFE810000BC22 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C68219AFE800000BC22 /* UIImage+Snapshot.m */; };
+		6D941CD0219AFE810000BC22 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C69219AFE800000BC22 /* UIApplication+StrictKeyWindow.m */; };
+		6D941CD1219AFE810000BC22 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C6A219AFE800000BC22 /* UIImage+Compare.m */; };
+		6D941CD2219AFE810000BC22 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C6B219AFE800000BC22 /* UIImage+Diff.m */; };
+		6D941CD3219AFE810000BC22 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C70219AFE800000BC22 /* Podfile */; };
+		6D941CD4219AFE810000BC22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C76219AFE800000BC22 /* InfoPlist.strings */; };
+		6D941CD5219AFE810000BC22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C7A219AFE800000BC22 /* LaunchScreen.storyboard */; };
+		6D941CD6219AFE810000BC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C7C219AFE800000BC22 /* Main.storyboard */; };
+		6D941CD7219AFE810000BC22 /* YWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C7E219AFE800000BC22 /* YWViewController.m */; };
+		6D941CD8219AFE810000BC22 /* YWPhotoKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C7F219AFE800000BC22 /* YWPhotoKit-Info.plist */; };
+		6D941CD9219AFE810000BC22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C80219AFE800000BC22 /* main.m */; };
+		6D941CDA219AFE810000BC22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C81219AFE800000BC22 /* Images.xcassets */; };
+		6D941CDB219AFE810000BC22 /* YWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C82219AFE800000BC22 /* YWAppDelegate.m */; };
+		6D941CDC219AFE810000BC22 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C83219AFE800000BC22 /* Podfile.lock */; };
+		6D941CDD219AFE810000BC22 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C84219AFE800000BC22 /* README.md */; };
+		6D941CDE219AFE810000BC22 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C85219AFE800000BC22 /* .gitignore */; };
+		6D941CDF219AFE810000BC22 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C88219AFE800000BC22 /* .gitkeep */; };
+		6D941CE0219AFE810000BC22 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D941C89219AFE800000BC22 /* ReplaceMe.m */; };
+		6D941CE1219AFE810000BC22 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C8B219AFE800000BC22 /* .gitkeep */; };
+		6D941CE2219AFE810000BC22 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6D941C8C219AFE800000BC22 /* .travis.yml */; };
 		6DE51CD521367C8000E83EFB /* YWTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE51CCC21367C7E00E83EFB /* YWTestCell.m */; };
 		6DE51CD621367C8000E83EFB /* YWVC_Scroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE51CCF21367C7F00E83EFB /* YWVC_Scroll.m */; };
 		6DE51CD721367C8000E83EFB /* YWVC_Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE51CD121367C7F00E83EFB /* YWVC_Table.m */; };
@@ -37,6 +93,76 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = YWEmptyView;
+		};
+		6D941C91219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C23219AFE800000BC22 /* _Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D7B47FE7765808A6336512DBD16689D6;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		6D941C93219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C23219AFE800000BC22 /* _Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 566F509EEF3BEC370320830FD7767A1C;
+			remoteInfo = "Pods-YWPhotoKit_Example";
+		};
+		6D941C95219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C23219AFE800000BC22 /* _Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A91E825BA11D54226F03146E8BDF14A2;
+			remoteInfo = "Pods-YWPhotoKit_Tests";
+		};
+		6D941C97219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C23219AFE800000BC22 /* _Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D2E875E1B79D0013DCBCD78640D10B3;
+			remoteInfo = YWPhotoKit;
+		};
+		6D941C9D219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C31219AFE800000BC22 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D7B47FE7765808A6336512DBD16689D6;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		6D941C9F219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C31219AFE800000BC22 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 566F509EEF3BEC370320830FD7767A1C;
+			remoteInfo = "Pods-YWPhotoKit_Example";
+		};
+		6D941CA1219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C31219AFE800000BC22 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A91E825BA11D54226F03146E8BDF14A2;
+			remoteInfo = "Pods-YWPhotoKit_Tests";
+		};
+		6D941CA3219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C31219AFE800000BC22 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D2E875E1B79D0013DCBCD78640D10B3;
+			remoteInfo = YWPhotoKit;
+		};
+		6D941CA7219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C71219AFE800000BC22 /* YWPhotoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6003F58A195388D20070C39A;
+			remoteInfo = YWPhotoKit_Example;
+		};
+		6D941CA9219AFE800000BC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D941C71219AFE800000BC22 /* YWPhotoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6003F5AE195388D20070C39A;
+			remoteInfo = YWPhotoKit_Tests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -63,6 +189,86 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6D941C23219AFE800000BC22 /* _Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = _Pods.xcodeproj; sourceTree = "<group>"; };
+		6D941C26219AFE800000BC22 /* YWPhotoKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YWPhotoKit.podspec; sourceTree = "<group>"; };
+		6D941C27219AFE800000BC22 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6D941C29219AFE800000BC22 /* YWPhotoKit.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = YWPhotoKit.xcworkspace; sourceTree = "<group>"; };
+		6D941C2C219AFE800000BC22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D941C2D219AFE800000BC22 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6D941C2E219AFE800000BC22 /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		6D941C2F219AFE800000BC22 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6D941C31219AFE800000BC22 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		6D941C36219AFE800000BC22 /* Pods-YWPhotoKit_Example-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-YWPhotoKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6D941C37219AFE800000BC22 /* Pods-YWPhotoKit_Example-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWPhotoKit_Example-dummy.m"; sourceTree = "<group>"; };
+		6D941C38219AFE800000BC22 /* Pods-YWPhotoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-YWPhotoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6D941C39219AFE800000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-YWPhotoKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D941C3A219AFE800000BC22 /* Pods-YWPhotoKit_Example-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-YWPhotoKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		6D941C3B219AFE800000BC22 /* Pods-YWPhotoKit_Example.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YWPhotoKit_Example.modulemap"; sourceTree = "<group>"; };
+		6D941C3C219AFE800000BC22 /* Pods-YWPhotoKit_Example.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-YWPhotoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6D941C3D219AFE800000BC22 /* Pods-YWPhotoKit_Example-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-YWPhotoKit_Example-resources.sh"; sourceTree = "<group>"; };
+		6D941C3E219AFE800000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-YWPhotoKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D941C3F219AFE800000BC22 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D941C41219AFE800000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-YWPhotoKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D941C42219AFE800000BC22 /* Pods-YWPhotoKit_Tests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWPhotoKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		6D941C43219AFE800000BC22 /* Pods-YWPhotoKit_Tests-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-YWPhotoKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6D941C44219AFE800000BC22 /* Pods-YWPhotoKit_Tests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-YWPhotoKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6D941C45219AFE800000BC22 /* Pods-YWPhotoKit_Tests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-YWPhotoKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6D941C46219AFE800000BC22 /* Pods-YWPhotoKit_Tests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YWPhotoKit_Tests.modulemap"; sourceTree = "<group>"; };
+		6D941C47219AFE800000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-YWPhotoKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D941C48219AFE800000BC22 /* Pods-YWPhotoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-YWPhotoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D941C49219AFE800000BC22 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D941C4A219AFE800000BC22 /* Pods-YWPhotoKit_Tests-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-YWPhotoKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		6D941C4C219AFE800000BC22 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		6D941C4D219AFE800000BC22 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		6D941C4E219AFE800000BC22 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		6D941C4F219AFE800000BC22 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		6D941C50219AFE800000BC22 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		6D941C51219AFE800000BC22 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D941C53219AFE800000BC22 /* YWPhotoKit-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YWPhotoKit-prefix.pch"; sourceTree = "<group>"; };
+		6D941C54219AFE800000BC22 /* YWPhotoKit-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YWPhotoKit-umbrella.h"; sourceTree = "<group>"; };
+		6D941C55219AFE800000BC22 /* YWPhotoKit-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YWPhotoKit-dummy.m"; sourceTree = "<group>"; };
+		6D941C56219AFE800000BC22 /* YWPhotoKit.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = YWPhotoKit.xcconfig; sourceTree = "<group>"; };
+		6D941C57219AFE800000BC22 /* YWPhotoKit.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = YWPhotoKit.modulemap; sourceTree = "<group>"; };
+		6D941C58219AFE800000BC22 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D941C59219AFE800000BC22 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		6D941C5B219AFE800000BC22 /* YWPhotoKit.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = YWPhotoKit.podspec.json; sourceTree = "<group>"; };
+		6D941C5D219AFE800000BC22 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6D941C5E219AFE800000BC22 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6D941C60219AFE800000BC22 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6D941C61219AFE800000BC22 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		6D941C62219AFE800000BC22 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestController.m; sourceTree = "<group>"; };
+		6D941C63219AFE800000BC22 /* SwiftSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
+		6D941C64219AFE800000BC22 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		6D941C65219AFE800000BC22 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		6D941C67219AFE800000BC22 /* UIImage+Diff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Diff.h"; sourceTree = "<group>"; };
+		6D941C68219AFE800000BC22 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		6D941C69219AFE800000BC22 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		6D941C6A219AFE800000BC22 /* UIImage+Compare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compare.m"; sourceTree = "<group>"; };
+		6D941C6B219AFE800000BC22 /* UIImage+Diff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Diff.m"; sourceTree = "<group>"; };
+		6D941C6C219AFE800000BC22 /* UIImage+Compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compare.h"; sourceTree = "<group>"; };
+		6D941C6D219AFE800000BC22 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		6D941C6E219AFE800000BC22 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		6D941C6F219AFE800000BC22 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestController.h; sourceTree = "<group>"; };
+		6D941C70219AFE800000BC22 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6D941C71219AFE800000BC22 /* YWPhotoKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = YWPhotoKit.xcodeproj; sourceTree = "<group>"; };
+		6D941C75219AFE800000BC22 /* YWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWViewController.h; sourceTree = "<group>"; };
+		6D941C77219AFE800000BC22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D941C78219AFE800000BC22 /* YWPhotoKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YWPhotoKit-Prefix.pch"; sourceTree = "<group>"; };
+		6D941C79219AFE800000BC22 /* YWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWAppDelegate.h; sourceTree = "<group>"; };
+		6D941C7B219AFE800000BC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D941C7D219AFE800000BC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D941C7E219AFE800000BC22 /* YWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWViewController.m; sourceTree = "<group>"; };
+		6D941C7F219AFE800000BC22 /* YWPhotoKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YWPhotoKit-Info.plist"; sourceTree = "<group>"; };
+		6D941C80219AFE800000BC22 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D941C81219AFE800000BC22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D941C82219AFE800000BC22 /* YWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWAppDelegate.m; sourceTree = "<group>"; };
+		6D941C83219AFE800000BC22 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		6D941C84219AFE800000BC22 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6D941C85219AFE800000BC22 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6D941C88219AFE800000BC22 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6D941C89219AFE800000BC22 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		6D941C8B219AFE800000BC22 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6D941C8C219AFE800000BC22 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		6DE51CCB21367C7E00E83EFB /* YWTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTestCell.h; sourceTree = "<group>"; };
 		6DE51CCC21367C7E00E83EFB /* YWTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTestCell.m; sourceTree = "<group>"; };
 		6DE51CCD21367C7E00E83EFB /* YWVC_Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWVC_Table.h; sourceTree = "<group>"; };
@@ -143,6 +349,7 @@
 		6003F593195388D20070C39A /* Example for YWEmptyView */ = {
 			isa = PBXGroup;
 			children = (
+				6D941C22219AFE800000BC22 /* YWPhotoKit */,
 				6DE51CCB21367C7E00E83EFB /* YWTestCell.h */,
 				6DE51CCC21367C7E00E83EFB /* YWTestCell.m */,
 				6DE51CD321367C7F00E83EFB /* YWVC_Collection.h */,
@@ -204,6 +411,252 @@
 				099766BC7F2560B6C50C95E1 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		6D941C22219AFE800000BC22 /* YWPhotoKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C23219AFE800000BC22 /* _Pods.xcodeproj */,
+				6D941C26219AFE800000BC22 /* YWPhotoKit.podspec */,
+				6D941C27219AFE800000BC22 /* LICENSE */,
+				6D941C28219AFE800000BC22 /* Example */,
+				6D941C84219AFE800000BC22 /* README.md */,
+				6D941C85219AFE800000BC22 /* .gitignore */,
+				6D941C86219AFE800000BC22 /* YWPhotoKit */,
+				6D941C8C219AFE800000BC22 /* .travis.yml */,
+			);
+			path = YWPhotoKit;
+			sourceTree = "<group>";
+		};
+		6D941C24219AFE800000BC22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C92219AFE800000BC22 /* FBSnapshotTestCase.framework */,
+				6D941C94219AFE800000BC22 /* Pods_YWPhotoKit_Example.framework */,
+				6D941C96219AFE800000BC22 /* Pods_YWPhotoKit_Tests.framework */,
+				6D941C98219AFE800000BC22 /* YWPhotoKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D941C28219AFE800000BC22 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C29219AFE800000BC22 /* YWPhotoKit.xcworkspace */,
+				6D941C2A219AFE800000BC22 /* Tests */,
+				6D941C30219AFE800000BC22 /* Pods */,
+				6D941C70219AFE800000BC22 /* Podfile */,
+				6D941C71219AFE800000BC22 /* YWPhotoKit.xcodeproj */,
+				6D941C74219AFE800000BC22 /* YWPhotoKit */,
+				6D941C83219AFE800000BC22 /* Podfile.lock */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		6D941C2A219AFE800000BC22 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C2B219AFE800000BC22 /* InfoPlist.strings */,
+				6D941C2D219AFE800000BC22 /* Tests-Info.plist */,
+				6D941C2E219AFE800000BC22 /* Tests.m */,
+				6D941C2F219AFE800000BC22 /* Tests-Prefix.pch */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6D941C30219AFE800000BC22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C31219AFE800000BC22 /* Pods.xcodeproj */,
+				6D941C34219AFE800000BC22 /* Target Support Files */,
+				6D941C59219AFE800000BC22 /* Manifest.lock */,
+				6D941C5A219AFE800000BC22 /* Local Podspecs */,
+				6D941C5C219AFE800000BC22 /* FBSnapshotTestCase */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D941C32219AFE800000BC22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C9E219AFE800000BC22 /* FBSnapshotTestCase.framework */,
+				6D941CA0219AFE800000BC22 /* Pods_YWPhotoKit_Example.framework */,
+				6D941CA2219AFE800000BC22 /* Pods_YWPhotoKit_Tests.framework */,
+				6D941CA4219AFE800000BC22 /* YWPhotoKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D941C34219AFE800000BC22 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C35219AFE800000BC22 /* Pods-YWPhotoKit_Example */,
+				6D941C40219AFE800000BC22 /* Pods-YWPhotoKit_Tests */,
+				6D941C4B219AFE800000BC22 /* FBSnapshotTestCase */,
+				6D941C52219AFE800000BC22 /* YWPhotoKit */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		6D941C35219AFE800000BC22 /* Pods-YWPhotoKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C36219AFE800000BC22 /* Pods-YWPhotoKit_Example-frameworks.sh */,
+				6D941C37219AFE800000BC22 /* Pods-YWPhotoKit_Example-dummy.m */,
+				6D941C38219AFE800000BC22 /* Pods-YWPhotoKit_Example.debug.xcconfig */,
+				6D941C39219AFE800000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.plist */,
+				6D941C3A219AFE800000BC22 /* Pods-YWPhotoKit_Example-umbrella.h */,
+				6D941C3B219AFE800000BC22 /* Pods-YWPhotoKit_Example.modulemap */,
+				6D941C3C219AFE800000BC22 /* Pods-YWPhotoKit_Example.release.xcconfig */,
+				6D941C3D219AFE800000BC22 /* Pods-YWPhotoKit_Example-resources.sh */,
+				6D941C3E219AFE800000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.markdown */,
+				6D941C3F219AFE800000BC22 /* Info.plist */,
+			);
+			path = "Pods-YWPhotoKit_Example";
+			sourceTree = "<group>";
+		};
+		6D941C40219AFE800000BC22 /* Pods-YWPhotoKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C41219AFE800000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.markdown */,
+				6D941C42219AFE800000BC22 /* Pods-YWPhotoKit_Tests-dummy.m */,
+				6D941C43219AFE800000BC22 /* Pods-YWPhotoKit_Tests-frameworks.sh */,
+				6D941C44219AFE800000BC22 /* Pods-YWPhotoKit_Tests.release.xcconfig */,
+				6D941C45219AFE800000BC22 /* Pods-YWPhotoKit_Tests-umbrella.h */,
+				6D941C46219AFE800000BC22 /* Pods-YWPhotoKit_Tests.modulemap */,
+				6D941C47219AFE800000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.plist */,
+				6D941C48219AFE800000BC22 /* Pods-YWPhotoKit_Tests.debug.xcconfig */,
+				6D941C49219AFE800000BC22 /* Info.plist */,
+				6D941C4A219AFE800000BC22 /* Pods-YWPhotoKit_Tests-resources.sh */,
+			);
+			path = "Pods-YWPhotoKit_Tests";
+			sourceTree = "<group>";
+		};
+		6D941C4B219AFE800000BC22 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C4C219AFE800000BC22 /* FBSnapshotTestCase-prefix.pch */,
+				6D941C4D219AFE800000BC22 /* FBSnapshotTestCase-umbrella.h */,
+				6D941C4E219AFE800000BC22 /* FBSnapshotTestCase.xcconfig */,
+				6D941C4F219AFE800000BC22 /* FBSnapshotTestCase.modulemap */,
+				6D941C50219AFE800000BC22 /* FBSnapshotTestCase-dummy.m */,
+				6D941C51219AFE800000BC22 /* Info.plist */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		6D941C52219AFE800000BC22 /* YWPhotoKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C53219AFE800000BC22 /* YWPhotoKit-prefix.pch */,
+				6D941C54219AFE800000BC22 /* YWPhotoKit-umbrella.h */,
+				6D941C55219AFE800000BC22 /* YWPhotoKit-dummy.m */,
+				6D941C56219AFE800000BC22 /* YWPhotoKit.xcconfig */,
+				6D941C57219AFE800000BC22 /* YWPhotoKit.modulemap */,
+				6D941C58219AFE800000BC22 /* Info.plist */,
+			);
+			path = YWPhotoKit;
+			sourceTree = "<group>";
+		};
+		6D941C5A219AFE800000BC22 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C5B219AFE800000BC22 /* YWPhotoKit.podspec.json */,
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		6D941C5C219AFE800000BC22 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C5D219AFE800000BC22 /* LICENSE */,
+				6D941C5E219AFE800000BC22 /* README.md */,
+				6D941C5F219AFE800000BC22 /* FBSnapshotTestCase */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		6D941C5F219AFE800000BC22 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C60219AFE800000BC22 /* FBSnapshotTestCasePlatform.m */,
+				6D941C61219AFE800000BC22 /* FBSnapshotTestCase.h */,
+				6D941C62219AFE800000BC22 /* FBSnapshotTestController.m */,
+				6D941C63219AFE800000BC22 /* SwiftSupport.swift */,
+				6D941C64219AFE800000BC22 /* FBSnapshotTestCase.m */,
+				6D941C65219AFE800000BC22 /* FBSnapshotTestCasePlatform.h */,
+				6D941C66219AFE800000BC22 /* Categories */,
+				6D941C6F219AFE800000BC22 /* FBSnapshotTestController.h */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		6D941C66219AFE800000BC22 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C67219AFE800000BC22 /* UIImage+Diff.h */,
+				6D941C68219AFE800000BC22 /* UIImage+Snapshot.m */,
+				6D941C69219AFE800000BC22 /* UIApplication+StrictKeyWindow.m */,
+				6D941C6A219AFE800000BC22 /* UIImage+Compare.m */,
+				6D941C6B219AFE800000BC22 /* UIImage+Diff.m */,
+				6D941C6C219AFE800000BC22 /* UIImage+Compare.h */,
+				6D941C6D219AFE800000BC22 /* UIApplication+StrictKeyWindow.h */,
+				6D941C6E219AFE800000BC22 /* UIImage+Snapshot.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6D941C72219AFE800000BC22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D941CA8219AFE800000BC22 /* YWPhotoKit_Example.app */,
+				6D941CAA219AFE800000BC22 /* YWPhotoKit_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D941C74219AFE800000BC22 /* YWPhotoKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C75219AFE800000BC22 /* YWViewController.h */,
+				6D941C76219AFE800000BC22 /* InfoPlist.strings */,
+				6D941C78219AFE800000BC22 /* YWPhotoKit-Prefix.pch */,
+				6D941C79219AFE800000BC22 /* YWAppDelegate.h */,
+				6D941C7A219AFE800000BC22 /* LaunchScreen.storyboard */,
+				6D941C7C219AFE800000BC22 /* Main.storyboard */,
+				6D941C7E219AFE800000BC22 /* YWViewController.m */,
+				6D941C7F219AFE800000BC22 /* YWPhotoKit-Info.plist */,
+				6D941C80219AFE800000BC22 /* main.m */,
+				6D941C81219AFE800000BC22 /* Images.xcassets */,
+				6D941C82219AFE800000BC22 /* YWAppDelegate.m */,
+			);
+			path = YWPhotoKit;
+			sourceTree = "<group>";
+		};
+		6D941C86219AFE800000BC22 /* YWPhotoKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C87219AFE800000BC22 /* Classes */,
+				6D941C8A219AFE800000BC22 /* Assets */,
+			);
+			path = YWPhotoKit;
+			sourceTree = "<group>";
+		};
+		6D941C87219AFE800000BC22 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C88219AFE800000BC22 /* .gitkeep */,
+				6D941C89219AFE800000BC22 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6D941C8A219AFE800000BC22 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6D941C8B219AFE800000BC22 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		EEB50F8B0C75422EBCFD79E9 /* Pods */ = {
@@ -284,6 +737,20 @@
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6D941C24219AFE800000BC22 /* Products */;
+					ProjectRef = 6D941C23219AFE800000BC22 /* _Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = 6D941C32219AFE800000BC22 /* Products */;
+					ProjectRef = 6D941C31219AFE800000BC22 /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = 6D941C72219AFE800000BC22 /* Products */;
+					ProjectRef = 6D941C71219AFE800000BC22 /* YWPhotoKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* YWEmptyView_Example */,
@@ -292,15 +759,127 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		6D941C92219AFE800000BC22 /* FBSnapshotTestCase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSnapshotTestCase.framework;
+			remoteRef = 6D941C91219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D941C94219AFE800000BC22 /* Pods_YWPhotoKit_Example.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_YWPhotoKit_Example.framework;
+			remoteRef = 6D941C93219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D941C96219AFE800000BC22 /* Pods_YWPhotoKit_Tests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_YWPhotoKit_Tests.framework;
+			remoteRef = 6D941C95219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D941C98219AFE800000BC22 /* YWPhotoKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = YWPhotoKit.framework;
+			remoteRef = 6D941C97219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D941C9E219AFE800000BC22 /* FBSnapshotTestCase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSnapshotTestCase.framework;
+			remoteRef = 6D941C9D219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D941CA0219AFE800000BC22 /* Pods_YWPhotoKit_Example.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_YWPhotoKit_Example.framework;
+			remoteRef = 6D941C9F219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D941CA2219AFE800000BC22 /* Pods_YWPhotoKit_Tests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_YWPhotoKit_Tests.framework;
+			remoteRef = 6D941CA1219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D941CA4219AFE800000BC22 /* YWPhotoKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = YWPhotoKit.framework;
+			remoteRef = 6D941CA3219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D941CA8219AFE800000BC22 /* YWPhotoKit_Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = YWPhotoKit_Example.app;
+			remoteRef = 6D941CA7219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D941CAA219AFE800000BC22 /* YWPhotoKit_Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = YWPhotoKit_Tests.xctest;
+			remoteRef = 6D941CA9219AFE800000BC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D941CDE219AFE810000BC22 /* .gitignore in Resources */,
+				6D941CB8219AFE810000BC22 /* Info.plist in Resources */,
+				6D941CAD219AFE810000BC22 /* YWPhotoKit.xcworkspace in Resources */,
+				6D941CAE219AFE810000BC22 /* InfoPlist.strings in Resources */,
+				6D941CDF219AFE810000BC22 /* .gitkeep in Resources */,
+				6D941CAC219AFE810000BC22 /* LICENSE in Resources */,
+				6D941CCA219AFE810000BC22 /* README.md in Resources */,
+				6D941CE2219AFE810000BC22 /* .travis.yml in Resources */,
+				6D941CB6219AFE810000BC22 /* Pods-YWPhotoKit_Example-resources.sh in Resources */,
+				6D941CBD219AFE810000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.plist in Resources */,
+				6D941CDA219AFE810000BC22 /* Images.xcassets in Resources */,
+				6D941CD5219AFE810000BC22 /* LaunchScreen.storyboard in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				6D941CDC219AFE810000BC22 /* Podfile.lock in Resources */,
+				6D941CC8219AFE810000BC22 /* YWPhotoKit.podspec.json in Resources */,
+				6D941CAF219AFE810000BC22 /* Tests-Info.plist in Resources */,
+				6D941CD3219AFE810000BC22 /* Podfile in Resources */,
+				6D941CBF219AFE810000BC22 /* Info.plist in Resources */,
+				6D941CBE219AFE810000BC22 /* Pods-YWPhotoKit_Tests.debug.xcconfig in Resources */,
+				6D941CB9219AFE810000BC22 /* Pods-YWPhotoKit_Tests-acknowledgements.markdown in Resources */,
+				6D941CC7219AFE810000BC22 /* Manifest.lock in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				6D941CBB219AFE810000BC22 /* Pods-YWPhotoKit_Tests-frameworks.sh in Resources */,
+				6D941CC0219AFE810000BC22 /* Pods-YWPhotoKit_Tests-resources.sh in Resources */,
+				6D941CB1219AFE810000BC22 /* Pods-YWPhotoKit_Example-frameworks.sh in Resources */,
+				6D941CB3219AFE810000BC22 /* Pods-YWPhotoKit_Example.debug.xcconfig in Resources */,
+				6D941CD6219AFE810000BC22 /* Main.storyboard in Resources */,
+				6D941CD8219AFE810000BC22 /* YWPhotoKit-Info.plist in Resources */,
+				6D941CE1219AFE810000BC22 /* .gitkeep in Resources */,
+				6D941CB4219AFE810000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.plist in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6D941CAB219AFE810000BC22 /* YWPhotoKit.podspec in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				6D941CC6219AFE810000BC22 /* Info.plist in Resources */,
+				6D941CDD219AFE810000BC22 /* README.md in Resources */,
+				6D941CC5219AFE810000BC22 /* YWPhotoKit.xcconfig in Resources */,
+				6D941CC9219AFE810000BC22 /* LICENSE in Resources */,
+				6D941CBC219AFE810000BC22 /* Pods-YWPhotoKit_Tests.release.xcconfig in Resources */,
+				6D941CB7219AFE810000BC22 /* Pods-YWPhotoKit_Example-acknowledgements.markdown in Resources */,
+				6D941CC1219AFE810000BC22 /* FBSnapshotTestCase.xcconfig in Resources */,
+				6D941CC3219AFE810000BC22 /* Info.plist in Resources */,
+				6D941CD4219AFE810000BC22 /* InfoPlist.strings in Resources */,
+				6D941CB5219AFE810000BC22 /* Pods-YWPhotoKit_Example.release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,13 +944,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YWAppDelegate.m in Sources */,
+				6D941CB2219AFE810000BC22 /* Pods-YWPhotoKit_Example-dummy.m in Sources */,
 				6DE51CD921367C8000E83EFB /* YWVC_View.m in Sources */,
 				6DE51CD721367C8000E83EFB /* YWVC_Table.m in Sources */,
+				6D941CB0219AFE810000BC22 /* Tests.m in Sources */,
+				6D941CCF219AFE810000BC22 /* UIImage+Snapshot.m in Sources */,
+				6D941CD7219AFE810000BC22 /* YWViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* YWViewController.m in Sources */,
+				6D941CC2219AFE810000BC22 /* FBSnapshotTestCase-dummy.m in Sources */,
+				6D941CCE219AFE810000BC22 /* FBSnapshotTestCase.m in Sources */,
+				6D941CD9219AFE810000BC22 /* main.m in Sources */,
+				6D941CCD219AFE810000BC22 /* SwiftSupport.swift in Sources */,
+				6D941CD0219AFE810000BC22 /* UIApplication+StrictKeyWindow.m in Sources */,
+				6D941CD2219AFE810000BC22 /* UIImage+Diff.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				6D941CCB219AFE810000BC22 /* FBSnapshotTestCasePlatform.m in Sources */,
 				6DE51CD521367C8000E83EFB /* YWTestCell.m in Sources */,
 				6DE51CD821367C8000E83EFB /* YWVC_Collection.m in Sources */,
+				6D941CD1219AFE810000BC22 /* UIImage+Compare.m in Sources */,
+				6D941CC4219AFE810000BC22 /* YWPhotoKit-dummy.m in Sources */,
+				6D941CBA219AFE810000BC22 /* Pods-YWPhotoKit_Tests-dummy.m in Sources */,
 				6DE51CD621367C8000E83EFB /* YWVC_Scroll.m in Sources */,
+				6D941CE0219AFE810000BC22 /* ReplaceMe.m in Sources */,
+				6D941CDB219AFE810000BC22 /* YWAppDelegate.m in Sources */,
+				6D941CCC219AFE810000BC22 /* FBSnapshotTestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +1004,38 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D941C2B219AFE800000BC22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D941C2C219AFE800000BC22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D941C76219AFE800000BC22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D941C77219AFE800000BC22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D941C7A219AFE800000BC22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D941C7B219AFE800000BC22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6D941C7C219AFE800000BC22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D941C7D219AFE800000BC22 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
@@ -529,6 +1157,7 @@
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -552,6 +1181,7 @@
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
