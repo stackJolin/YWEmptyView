@@ -1,0 +1,3 @@
+[submodule "Example/YWEmptyView/YWPhotoKit"]
+	path = Example/YWEmptyView/YWPhotoKit
+	url = https://github.com/stackJolin/YWPhotoKit.git
